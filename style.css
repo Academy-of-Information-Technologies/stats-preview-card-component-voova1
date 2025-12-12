@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+main {
+  background-color: #0a0c1c;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Inter", sans-serif;
+  overflow: hidden;
+}
+.container {
+  width: 570px;
+  height: 446px;
+  background: #1b1937;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+  padding: 71px 95px 59px 72px;
+  box-shadow: 0 20px 20px -10px rgba(23, 25, 41, 0.2);
+}
+h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+.ins {
+  color: #ab5cdb;
+}
+p {
+  font-size: 15px;
+  font-weight: 400;
+  opacity: 75%;
+  color: white;
+  margin-right: 35px;
+}
+.parent {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-top: 72px;
+  gap: 63px;
+}
+h2 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+}
+.companies-1 {
+  color: white;
+  opacity: 60%;
+  font-size: 12px;
+  font-weight: 400;
+}
+.templates-1 {
+  color: white;
+  opacity: 60%;
+  font-size: 12px;
+  font-weight: 400;
+}
+.queries-1 {
+  color: white;
+  opacity: 60%;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+img {
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
